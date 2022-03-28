@@ -51,6 +51,9 @@
     width: 80px;
     text-align: right;
   }
+  .app__content{
+    margin-top: 0;
+  }
 }
 
 /* Mobile */
@@ -108,6 +111,10 @@
     margin: 0 4px;
   }
 
+  .mobile-category {
+    margin-top: 18px;
+  }
+
   .header__mobile-search {
     display: block;
   }
@@ -120,20 +127,20 @@
     padding: 0 16px;
   }
 
-  .footer__heading{
+  .footer__heading {
     text-align: center;
   }
 
   .footer-item__link,
-  .footer__download{
+  .footer__download {
     justify-content: center;
   }
 
-  .footer__download-apps{
+  .footer__download-apps {
     flex: unset;
   }
 
-  .footer__download-app-link{
+  .footer__download-app-link {
     padding: 6px 8px;
   }
 
